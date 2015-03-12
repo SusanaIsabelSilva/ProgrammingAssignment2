@@ -55,7 +55,7 @@ cacheSolve <- function(x, ...) {
                
                message("Calculating the inverse of a matrix and assign the result in cache.")
                ## If m doesn't exist, then assign m0 with tha cache of x 
-               ## using get function.
+               ## using getobj function.
                m0 <- x$getobj()
                ## Calculate inverse matrix of m0, using solve function.
                m <- solve(m0) 
